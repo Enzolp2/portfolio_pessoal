@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,13 +9,16 @@
     <link rel="stylesheet" href="/static/style.css">
     <!-- ICON -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <title>Modelo de Projeto</title>
 </head>
+
 <body>
 
     <i class="bi bi-list menu-mobile"></i>
-    
+
     <aside id="header">
         <section class="profile">
             <img src="/static/img/profile-enzo.jpg" alt="Foto do Enzo Lemos">
@@ -23,7 +27,7 @@
                 <a href="https://github.com/Enzolp2" target="_blank">
                     <i class="bi bi-github"></i>
                 </a> <!-- GitHub -->
-                
+
                 <a href="https://linkedin.com/in/Enzolp2" target="_blank">
                     <i class="bi bi-linkedin"></i>
                 </a> <!-- Linkedin -->
@@ -40,24 +44,24 @@
         <nav id="navbar" class="nav-menu">
             <ul class="nav flex-column">
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#"><i class="bi bi-house"></i> Início</a>
+                    <a class="nav-link active" aria-current="page" href="#inicio"><i class="bi bi-house"></i> Início</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#"><i class="bi bi-person"></i> Sobre</a>
+                    <a class="nav-link" href="#sobre"><i class="bi bi-person"></i> Sobre</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#"><i class="bi bi-list-check"></i> Habilidades</a>
+                    <a class="nav-link" href="#habilidades"><i class="bi bi-list-check"></i> Habilidades</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#"><i class="bi bi-file-earmark"></i> Currículo</a>
+                    <a class="nav-link" href="#"><i class="bi bi-file-earmark"></i> Currículo</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#"><i class="bi bi-collection"></i>Portfólio</a>
+                    <a class="nav-link" href="#"><i class="bi bi-collection"></i>Portfólio</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#"><i class="bi bi-envelope"></i> Contato</a>
+                    <a class="nav-link" href="#"><i class="bi bi-envelope"></i> Contato</a>
                 </li>
-              </ul>
+            </ul>
         </nav>
     </aside>
 
@@ -67,19 +71,181 @@
                 <h2 class="text-white text-shadow">Enzo Lemos</h2>
                 <span id="subtitle" class="text-white text-shadow">Estudante - Ciências da Computação - UFSC</span>
             </div>
-            
+
             <div class="col-md-7 d-flex justify-content-end align-items-end">
                 <div id="arraste" class="d-flex align-items-center">
-                    <i class="bi bi-arrow-down text-white pe-2 fs-2"
-                    aria-hidden="true"></i>
-                    <a href="#">Arraste para mais</a>
+                    <i class="bi bi-arrow-down text-white pe-2 fs-2" aria-hidden="true"></i>
+                    <a href="#sobre">Arraste para mais</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="sobre" class="container mt-5">
+            <div class="row w-100">
+                <div class="col-md-12">
+                    <h2 class="pt-3">Sobre</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente assumenda non fugit quasi
+                        possimus maxime reiciendis alias. Sint excepturi minus, eius modi nisi nobis quidem, similique
+                        voluptatem recusandae nihil cum veritatis non labore quo, soluta velit. Adipisci vero nemo odio
+                        eos inventore tempora rerum officia eaque autem dolorem doloremque repellat rem numquam error,
+                        eius velit, modi obcaecati repellendus ab ut!</p>
+                </div>
+            </div>
+
+            <div class="row mt-4">
+                <div class="col-md-4">
+                    <img class="enzo-img img-fluid shadow" src="/static/img/profile-enzo.jpg" alt="Foto do Enzo Lemos">
+                </div>
+                <div class="col-md-8">
+                    <h3>Ciências da Computação</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione dolorum eveniet magni a porro vitae recusandae doloremque libero. A quam iure velit eius quaerat obcaecati repellendus corrupti, voluptas aut nihil?</p>
+                    <div class="row my-3">
+                        <div class="col-md-6">
+                            <ul class="list-group list-group-flush fs-5">
+                                <li class="list-group-item">
+                                    Aniversário: <span class="fw-lighter">22 de Abril de 1999</span>
+                                </li>
+                                <li class="list-group-item">
+                                    Idade: <span class="fw-lighter">23 anos</span>
+                                </li>
+                                <li class="list-group-item">
+                                    Cidade: <span class="fw-lighter">Florianópolis</span>
+                                </li>
+                                <li class="list-group-item">
+                                    Estado: <span class="fw-lighter">Santa Catarina</span>
+                                </li>
+                              </ul>
+                        </div>
+                        <div class="col-md-6">
+                            <ul class="list-group list-group-flush fs-5">
+                                <li class="list-group-item">
+                                    Hobby: <span class="fw-lighter">Vôlei</span>
+                                </li>
+                                <li class="list-group-item">
+                                    Trabalho: <a href="https://www.adeptmec.com/"
+                                    target="_blank"
+                                    class="fw-lighter text-decoration-none text-black-50">links.Adeptmec</a>
+                                </li>
+                                <li class="list-group-item">
+                                    Linguagem Favorita: <span class="fw-lighter">Python</span>
+                                </li>
+                                <li class="list-group-item">
+                                    Experiência: <span class="fw-lighter">+6 meses</span>
+                                </li>
+                              </ul>
+                        </div>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum a error illum sed iste blanditiis, voluptas sequi consequatur explicabo ipsam officia optio, beatae enim veniam iure aperiam odio. Atque, doloribus? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem beatae voluptatum id veniam reiciendis error doloribus mollitia at tenetur aut quibusdam nisi vero minima nemo labore, necessitatibus nihil magni est.</p>
+
+                    
+                </div>
+            </div>
+
+        </section>
+
+        <section id="habilidades" class="mt-5 section-bg"> <!-- section-bg utility class-->
+            <div class="container pb-5">
+                <h2 class="pt-5">Habilidades</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis animi ut aperiam debitis rerum possimus illo, sapiente dignissimos iste in deleniti provident fuga unde ullam qui dolor, repellat incidunt itaque repudiandae fugiat pariatur neque. Magni nam odio voluptas magnam reprehenderit!</p>
+                <div class="row">
+                    <div class="col-md-6">
+                        <p class="mt-3 mb-0 fw-bold">HTML</p>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-label="Example with label" style="width: 65%;" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">65%</div>
+                        </div>
+
+                        <p class="mt-3 mb-0 fw-bold">CSS</p>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-label="Example with label" style="width: 55%;" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100">55%</div>
+                        </div>
+
+                        <p class="mt-3 mb-0 fw-bold">Javascript</p>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-label="Example with label" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+                        </div>
+
+                        <p class="mt-3 mb-0 fw-bold">Python</p>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-label="Example with label" style="width: 85%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">85%</div>
+                        </div>
+
+                        <p class="mt-3 mb-0 fw-bold">VBA</p>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-label="Example with label" style="width: 45%;" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100">45%</div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <p class="mt-3 mb-0 fw-bold">Flask</p>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-label="Example with label" style="width: 35%;" aria-valuenow="35" aria-valuemin="0" aria-valuemax="100">35%</div>
+                        </div>
+
+                        <p class="mt-3 mb-0 fw-bold">Pandas</p>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-label="Example with label" style="width: 35%;" aria-valuenow="35" aria-valuemin="0" aria-valuemax="100">35%</div>
+                        </div>
+
+                        <p class="mt-3 mb-0 fw-bold">PyGame</p>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-label="Example with label" style="width: 65%;" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">65%</div>
+                        </div>
+
+                        <p class="mt-3 mb-0 fw-bold">Git</p>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-label="Example with label" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%</div>
+                        </div>
+
+
+                        <p class="mt-3 mb-0 fw-bold">SQL</p>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-label="Example with label" style="width: 55%;" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100">55%</div>
+                        </div>
+                    </div>
+                </div>
+
+                <hr class="w-50 ms-auto me-auto">
+
+                <div class="row">
+                    <div class="col-md-6">
+                        <p class="mt-3 mb-0 fw-bold">Trabalho em equipe</p>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-label="Example with label" style="width: 95%;" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">95%</div>
+                        </div>
+
+                        <p class="mt-3 mb-0 fw-bold">Proatividade</p>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-label="Example with label" style="width: 85%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">85%</div>
+                        </div>
+
+                        <p class="mt-3 mb-0 fw-bold">Responsabilidade</p>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-label="Example with label" style="width: 95%;" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">95%</div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <p class="mt-3 mb-0 fw-bold">Comunicação</p>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-label="Example with label" style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">90%</div>
+                        </div>
+
+                        <p class="mt-3 mb-0 fw-bold">Empatia</p>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-label="Example with label" style="width: 85%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">85%</div>
+                        </div>
+
+                        <p class="mt-3 mb-0 fw-bold">Comprometimento</p>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-label="Example with label" style="width: 100%;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">100%</div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
     </main>
-    
+
 
     <script src="/static/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="/static/script.js"></script>
 </body>
+
 </html>

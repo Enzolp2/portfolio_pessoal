@@ -17,6 +17,10 @@ html, body {
     height: 100%;
 }
 
+p {
+    letter-spacing: 0.065rem;
+}
+
 /* hamburguer */
 i.menu-mobile {
     position: fixed;
@@ -162,6 +166,33 @@ section#inicio div#arraste a {
     left: 0;
 }
 
+/* Enzo Imagem */
+.enzo-img {
+    border-radius: 10px;
+}
+
+/* scroll bar */
+*::-webkit-scrollbar {
+    width: 10px;
+}
+
+*::-webkit-scrollbar-track {
+    width: 12px;
+    box-shadow: inset 0 0 .3rem rgba(0, 0, 0, 0.5);
+    background-color: #fff;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: var(--clr-dark-900);
+
+}
+
+/* section background */
+
+.section-bg {
+    background-color: #eff5ff;
+}
+
 /* responsividade */
 @media (max-width: 55em) {
     #header {
@@ -183,6 +214,5 @@ section#inicio div#arraste a {
 
     #main {
         margin-left: 0;
-    }
-     
+    }    
 }
